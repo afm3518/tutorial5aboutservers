@@ -11,7 +11,7 @@ directories:
        - $HOME/.gradle/caches/
        - $HOME/.gradle/wrapper/
 deploy:
-provider: heroku
-api_key: 879d556b-9535-49c6-be18-3a5fecbb1bd6
-app: tutorial5aboutservers
-skip_cleanup: true
+  provider: heroku
+  api_key: 879d556b-9535-49c6-be18-3a5fecbb1bd6
+  app: tutorial5aboutservers
+  skip_cleanup: true
