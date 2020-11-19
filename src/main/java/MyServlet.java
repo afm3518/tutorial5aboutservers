@@ -23,7 +23,7 @@ public class MyServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String reqBody=req.getReader().lines().collect(Collectors.joining(System.lineSeparator())); resp.setContentType("text/html");
         resp.getWriter().write("Thank you client! "+reqBody);
-        Gson gson=new Gson();
-        Patient p=gson.fromJson(reqBody,Patient.class);
+        //Gson gson=new Gson();
+        //Patient p=gson.fromJson(reqBody,Patient.class);
     }
 }
